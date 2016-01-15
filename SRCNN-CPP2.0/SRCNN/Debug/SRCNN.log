@@ -1,0 +1,24 @@
+﻿Build started 2015/9/14 8:06:34.
+     1>Project "C:\Users\王澍\Desktop\SRCNN\SRCNN\SRCNN.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SRCNN.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SRCNN.cpp
+         SRCNN.cpp
+     1>c:\users\王澍\desktop\srcnn\srcnn\opencv2\core\mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\王澍\desktop\srcnn\srcnn\opencv2\core\persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\王澍\desktop\srcnn\srcnn\opencv2\core\utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\users\王澍\desktop\srcnn\srcnn\convdata.h(14): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\王澍\desktop\srcnn\srcnn\convdata.h(658): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\王澍\desktop\srcnn\srcnn\convdata.h(666): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\王澍\desktop\srcnn\srcnn\convdata.h(958): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\王澍\desktop\srcnn\srcnn\convdata.h(961): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\王澍\desktop\srcnn\srcnn\convdata.h(1157): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\王澍\desktop\srcnn\srcnn\srcnn.cpp(339): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\王澍\Desktop\SRCNN\Debug\SRCNN.exe" /INCREMENTAL /NOLOGO opencv_ts300d.lib opencv_world300d.lib IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib zlibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\王澍\Desktop\SRCNN\Debug\SRCNN.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\王澍\Desktop\SRCNN\Debug\SRCNN.lib" /MACHINE:X86 Debug\SRCNN.obj
+         Debug\stdafx.obj
+         SRCNN.vcxproj -> C:\Users\王澍\Desktop\SRCNN\Debug\SRCNN.exe
+     1>Done Building Project "C:\Users\王澍\Desktop\SRCNN\SRCNN\SRCNN.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68
